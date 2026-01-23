@@ -1,0 +1,13 @@
+# Node.js / React
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+
+# Logs
+logs
+*.log
+README
+# Misc
+*.local
