@@ -30,14 +30,14 @@ function Footer() {
                                 <h5>Account</h5>
                                 <div className='footerLinks'>
                                     <ul>
-                                        <li><a href="">Open demat account</a></li>
-                                        <li><a href="">Minor demat account</a></li>
-                                        <li><a href="">NRI demat account</a></li>
-                                        <li><a href="">Commodity</a></li>
-                                        <li><a href="">Dematerialisation</a></li>
-                                        <li><a href="">Fund transfer</a></li>
-                                        <li><a href="">MTF</a></li>
-                                        <li><a href="">Referral program</a></li>
+                                        <li><a href="/#">Open demat account</a></li>
+                                        <li><a href="/#">Minor demat account</a></li>
+                                        <li><a href="/#">NRI demat account</a></li>
+                                        <li><a href="/#">Commodity</a></li>
+                                        <li><a href="/#">Dematerialisation</a></li>
+                                        <li><a href="/#">Fund transfer</a></li>
+                                        <li><a href="/#">MTF</a></li>
+                                        <li><a href="/#">Referral program</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -46,14 +46,14 @@ function Footer() {
                                 <h5>Support</h5>
                                 <div className='footerLinks'>
                                     <ul>
-                                        <li><a href="">Contact us</a></li>
-                                        <li><a href="">Support portal</a></li>
-                                        <li><a href="">How to file a complaint?</a></li>
-                                        <li><a href="">Status of your complaints</a></li>
-                                        <li><a href="">Bulletin</a></li>
-                                        <li><a href="">Circular</a></li>
-                                        <li><a href="">Z-Connect blog</a></li>
-                                        <li><a href="">Downloads</a></li>
+                                        <li><a href="/#">Contact us</a></li>
+                                        <li><a href="/#">Support portal</a></li>
+                                        <li><a href="/#">How to file a complaint?</a></li>
+                                        <li><a href="/#">Status of your complaints</a></li>
+                                        <li><a href="/#">Bulletin</a></li>
+                                        <li><a href="/#">Circular</a></li>
+                                        <li><a href="/#">Z-Connect blog</a></li>
+                                        <li><a href="/#">Downloads</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -62,13 +62,13 @@ function Footer() {
                                 <h5>Company</h5>
                                 <div className='footerLinks'>
                                     <ul>
-                                        <li><a href="">About</a></li>
-                                        <li><a href="">Philosophy</a></li>
-                                        <li><a href="">Press & media</a></li>
-                                        <li><a href="">Careers</a></li>
-                                        <li><a href="">BrokerBase Cares (CSR)</a></li>
-                                        <li><a href="">BrokerBase.tech</a></li>
-                                        <li><a href="">Open source</a></li>
+                                        <li><a href="/#">About</a></li>
+                                        <li><a href="/#">Philosophy</a></li>
+                                        <li><a href="/#">Press & media</a></li>
+                                        <li><a href="/#">Careers</a></li>
+                                        <li><a href="/#">BrokerBase Cares (CSR)</a></li>
+                                        <li><a href="/#">BrokerBase.tech</a></li>
+                                        <li><a href="/#">Open source</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -77,13 +77,13 @@ function Footer() {
                                 <h5>Quick Links</h5>
                                 <div className='footerLinks'>
                                     <ul>
-                                        <li><a href="">Upcoming IPOs</a></li>
-                                        <li><a href="">Brokerage charges</a></li>
-                                        <li><a href="">Market holidays</a></li>
-                                        <li><a href="">Economic calendar</a></li>
-                                        <li><a href="">Calculators</a></li>
-                                        <li><a href="">Markets</a></li>
-                                        <li><a href="">Sectors</a></li>
+                                        <li><a href="/#">Upcoming IPOs</a></li>
+                                        <li><a href="/#">Brokerage charges</a></li>
+                                        <li><a href="/#">Market holidays</a></li>
+                                        <li><a href="/#">Economic calendar</a></li>
+                                        <li><a href="/#">Calculators</a></li>
+                                        <li><a href="/#">Markets</a></li>
+                                        <li><a href="/#">Sectors</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -130,16 +130,16 @@ function Footer() {
                 </div>
 
                 <div className='FooterLastLink p-2 m-2'>
-                    <a href="">NSE</a>
-                    <a href="">BSE</a>
-                    <a href="">MCX</a>
-                    <a href="">Terms & conditions</a>
-                    <a href="">Policies & procedures</a>
-                    <a href="">Privacy policy</a>
-                    <a href="">Disclosure</a>
-                    <a href="">For investor's</a>
-                    <a href="">attention</a>
-                    <a href="">Investor charter</a>
+                    <a href="/#">NSE</a>
+                    <a href="/#">BSE</a>
+                    <a href="/#">MCX</a>
+                    <a href="/#">Terms & conditions</a>
+                    <a href="/#">Policies & procedures</a>
+                    <a href="/#">Privacy policy</a>
+                    <a href="/#">Disclosure</a>
+                    <a href="/#">For investor's</a>
+                    <a href="/#">attention</a>
+                    <a href="/#">Investor charter</a>
                 </div>
             </div>
         </div>
