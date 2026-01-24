@@ -1,4 +1,4 @@
-# 📈 BrokerBase:Zerodha Clone 
+# 📈 BrokerBase
 
 A full-stack personal trading platform inspired by Zerodha, built with React, Node.js, Express, and more.
 
