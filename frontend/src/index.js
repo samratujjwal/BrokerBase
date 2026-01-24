@@ -11,8 +11,8 @@ import SupportPage from './landing_page/support/SupportPage.js'
 import Navbar from './landing_page/Navbar.js';
 import Footer from './landing_page/Footer.js';
 import NotFound from './landing_page/NotFound.js';
-const root = ReactDOM.createRoot(document.getElementById('root'));
 import { CookiesProvider } from "react-cookie";
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <CookiesProvider>
     <BrowserRouter>
