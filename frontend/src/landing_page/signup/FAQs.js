@@ -119,7 +119,7 @@ function FAQs() {
                             <strong>For non-Basic Services Demat Account:</strong> ₹300 per year + GST.
                             <br />
                             To learn more about BSDA,{" "}
-                            <a href="#" style={{ textDecoration: "none" }}>
+                            <a href="/#" style={{ textDecoration: "none" }}>
                                 Click here
                             </a>.
                         </div>

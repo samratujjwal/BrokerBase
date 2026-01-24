@@ -36,17 +36,16 @@ function HelpingLink() {
                             <div id="collapseOne" className="accordion-collapse collapse">
                                 <div className="accordion-body">
                                     <ul className="list-unstyled">
-                                        <li><a href="#" className="text-primary text-decoration-none">Resident individual</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Minor</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Non Resident Indian (NRI)</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Company, Partnership, HUF and LLP</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Glossary</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Resident individual</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Minor</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Non Resident Indian (NRI)</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Company, Partnership, HUF and LLP</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Glossary</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        {/* Item 2 */}
                         <div className="accordion-item my-4 border">
                             <h2 className="accordion-header" id="headingFive">
                                 <button
@@ -77,18 +76,16 @@ function HelpingLink() {
                             <div id="collapseFive" className="accordion-collapse collapse">
                                 <div className="accordion-body">
                                     <ul className="list-unstyled">
-                                        <li><a href="#" className="text-primary text-decoration-none">Your Profile</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Account modification</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Client Master Report (CMR) and Depository Participant (DP)</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Nomination</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Transfer and conversion of securities</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Your Profile</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Account modification</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Client Master Report (CMR) and Depository Participant (DP)</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Nomination</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Transfer and conversion of securities</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-
-                        {/* Item 3 */}
                         <div className="accordion-item my-4 border">
                             <h2 className="accordion-header">
                                 <button
@@ -119,18 +116,17 @@ function HelpingLink() {
                             <div id="collapseThree" className="accordion-collapse collapse">
                                 <div className="accordion-body">
                                     <ul className="list-unstyled">
-                                        <li><a href="#" className="text-primary text-decoration-none">IPO</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Trading FAQs</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Margin Trading Facility (MTF) and Margins</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Charts and orders</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Alerts and Nudges</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">General</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">IPO</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Trading FAQs</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Margin Trading Facility (MTF) and Margins</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Charts and orders</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Alerts and Nudges</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">General</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        {/* Item 4 */}
                         <div className="accordion-item my-4 border">
                             <h2 className="accordion-header">
                                 <button
@@ -161,12 +157,12 @@ function HelpingLink() {
                             <div id="collapseFour" className="accordion-collapse collapse">
                                 <div className="accordion-body">
                                     <ul className="list-unstyled">
-                                        <li><a href="#" className="text-primary text-decoration-none">Portfolio</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Corporate actions</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Funds statement</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Reports</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Profile</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Segments</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Portfolio</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Corporate actions</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Funds statement</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Reports</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Profile</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Segments</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -202,12 +198,12 @@ function HelpingLink() {
                             <div id="collapseSix" className="accordion-collapse collapse">
                                 <div className="accordion-body">
                                     <ul className="list-unstyled">
-                                        <li><a href="#" className="text-primary text-decoration-none">Mutual funds</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">National Pension Scheme (NPS)</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Fixed Deposit (FD)</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Features on Coin</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">Payments and Orders</a></li>
-                                        <li><a href="#" className="text-primary text-decoration-none">General</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Mutual funds</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">National Pension Scheme (NPS)</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Fixed Deposit (FD)</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Features on Coin</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">Payments and Orders</a></li>
+                                        <li><a href="/#" className="text-primary text-decoration-none">General</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -218,18 +214,18 @@ function HelpingLink() {
                     <div style={{ backgroundColor: "#fff4e6", borderLeft: " 1rem solid #ff9000" }} className="row mt-4  p-3 ms-3">
                         <ul>
 
-                            <li><a href="">Exclusion of F&O contracts on 8 securities from August 29, 2025</a></li>
-                            <li><a href="">Revision in expiry day of Index and Stock derivatives contracts</a></li>
+                            <li><a href="/#">Exclusion of F&O contracts on 8 securities from August 29, 2025</a></li>
+                            <li><a href="/#">Revision in expiry day of Index and Stock derivatives contracts</a></li>
                         </ul>
                     </div>
 
                     <div className='mt-3 p-3 border ms-3'>
                         <h6 className='mb-3 ' style={{ width: "100%" }}>Quick Links</h6>
                         <ol>
-                            <li ><a className='text-decoration-none fs-5' href="">Track account opening</a></li>
-                            <li ><a className='text-decoration-none fs-5 ' href="">Track segment activation</a></li>
-                            <li ><a className='text-decoration-none fs-5' href="">Intraday margins</a></li>
-                            <li ><a className='text-decoration-none fs-5' href="">Kite user manual</a></li>
+                            <li ><a className='text-decoration-none fs-5' href="/#">Track account opening</a></li>
+                            <li ><a className='text-decoration-none fs-5 ' href="/#">Track segment activation</a></li>
+                            <li ><a className='text-decoration-none fs-5' href="/#">Intraday margins</a></li>
+                            <li ><a className='text-decoration-none fs-5' href="/#">Kite user manual</a></li>
                         </ol>
                     </div>
                 </div>
