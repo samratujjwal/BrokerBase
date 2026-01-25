@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg border-bottom sticky-top p-2" style={{ backgroundColor: "#ffff" }}>
             <div className="container-fluid " style={{ padding: "0px 170px 5px 170px " }}>
-                <Link className="navbar-brand" href="#"><img src="./media/images/Broker3.png" alt="" style={{ width: "35%" }} /></Link>
+                <Link className="navbar-brand" href="/#"><img src="./media/images/Broker3.png" alt="" style={{ width: "35%" }} /></Link>
                 <button
                     className="navbar-toggler"
                     type="button"
