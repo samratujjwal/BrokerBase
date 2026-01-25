@@ -1,7 +1,7 @@
 import React from 'react';
 import OpenAccount from '../OpenAccount';
 function Hero() {
-    let stylep = { color: "#666" }
+    
     return (
         <div className='container p-5 '>
             <div className='row text-center'>
