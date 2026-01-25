@@ -23,7 +23,7 @@ function LeftSection({ head, para, img }) {
               </a>
             </div>
             <div className="col-6">
-              <a href="" style={{ textDecoration: "none", fontWeight: "400" }}>
+              <a href="/#" style={{ textDecoration: "none", fontWeight: "400" }}>
                 Learn more <i class="fa-solid fa-arrow-right"></i>
               </a>
               <br />
