@@ -1,5 +1,4 @@
 import React, { useState, forwardRef, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
 import api from "../api/axios";
 import { ToastContainer, toast } from "react-toastify";
@@ -8,7 +7,6 @@ import Login from "./Login";
 
 const Hero = forwardRef((props, ref) => {
   const [activeForm, setActiveForm] = useState("signup");
-  //const navigate = useNavigate();
   const [cookies, removeCookie] = useCookies([]);
   const [username, setUsername] = useState("");
   const [isLoggedIn, setIsLogin] = useState(false);
