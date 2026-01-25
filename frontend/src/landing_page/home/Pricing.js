@@ -1,9 +1,6 @@
 import React from 'react';
 import "../CustomStyle.css"
 function Pricing() {
-    let stylec = {
-        padding: "0px 50px 120px 50px"
-    }
     return (
         <div className="container">
             <div className="row align-items-center">
