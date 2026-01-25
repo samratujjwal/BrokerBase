@@ -15,7 +15,7 @@ function ProductsPage() {
             <RightSection head="Kite Connect API" img="./media/images/kiteconnect.png" para="Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase." />
             <LeftSection head="Varsity mobile" img="./media/images/varsity.png" para="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go." />
             <div className="container">
-                <p className='text-center fs-5 mt-2 mb-4'>Want to know more about our technology stack? Check out the <a href="" style={{ textDecoration: "none" }}>BrokerBase.tech</a> blog.</p>
+                <p className='text-center fs-5 mt-2 mb-4'>Want to know more about our technology stack? Check out the <a href="/#" style={{ textDecoration: "none" }}>BrokerBase.tech</a> blog.</p>
             </div>
             <Universe />
         </>
