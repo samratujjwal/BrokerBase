@@ -1,4 +1,4 @@
-import React, { useState, forwardRef, useEffect } from "react";
+import { useState, forwardRef, useEffect } from "react";
 import { useCookies } from "react-cookie";
 import api from "../api/axios";
 import { ToastContainer, toast } from "react-toastify";
@@ -187,7 +187,7 @@ const Hero = forwardRef((props, ref) => {
 
         <div className="container text-center my-5 mt-5">
           <h4 className="mb-5">
-            Investment options with{" "}
+            Investment options with {" "}
             <span className="fw-bold">BrokerBase demat account</span>
           </h4>
 
