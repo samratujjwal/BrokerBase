@@ -17,10 +17,10 @@ app.set("trust proxy", 1);
 app.use(
   cors({
     origin: [
-      "https://brokerbase.netlify.app/",
-      "https://brokerbasedashboard.netlify.app/",
+      "https://brokerbase.netlify.app",
+      "https://brokerbasedashboard.netlify.app",
       "http://localhost:3001",
-      "*",
+      
     ],
     methods: ["GET", "POST", "OPTIONS"],
     credentials: true,
