@@ -52,7 +52,7 @@ const Hero = forwardRef((props, ref) => {
     setTimeout(async () => {
       await verifyCookie();
     }, 100);
-  }, [cookies.token]);
+  },[cookies.token, removeCookie]);
 
   const handleLoginSuccess = async () => {
     try {
