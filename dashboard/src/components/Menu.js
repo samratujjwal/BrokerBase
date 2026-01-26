@@ -17,7 +17,7 @@ const Menu = () => {
 
     return (
         <div className="menu-container">
-            <img src="./media/images/kitelogo.svg" style={{ width: "30px" }} />
+            <img src="./media/images/kitelogo.svg" style={{ width: "30px" }} alt="kite" />
             <div className="menus ">
                 <ul>
                     <li>
