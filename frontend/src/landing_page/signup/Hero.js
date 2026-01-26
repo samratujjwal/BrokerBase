@@ -1,5 +1,4 @@
-import React, { useState, forwardRef, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useState, forwardRef, useEffect } from "react";
 import { useCookies } from "react-cookie";
 import api from "../api/axios";
 import { ToastContainer, toast } from "react-toastify";
@@ -8,7 +7,6 @@ import Login from "./Login";
 
 const Hero = forwardRef((props, ref) => {
   const [activeForm, setActiveForm] = useState("signup");
-  //const navigate = useNavigate();
   const [cookies, removeCookie] = useCookies([]);
   const [username, setUsername] = useState("");
   const [isLoggedIn, setIsLogin] = useState(false);
@@ -54,7 +52,7 @@ const Hero = forwardRef((props, ref) => {
     setTimeout(async () => {
       await verifyCookie();
     }, 100);
-  }, [cookies.token]);
+  },[cookies.token, removeCookie]);
 
   const handleLoginSuccess = async () => {
     try {
@@ -189,7 +187,7 @@ const Hero = forwardRef((props, ref) => {
 
         <div className="container text-center my-5 mt-5">
           <h4 className="mb-5">
-            Investment options with{" "}
+            Investment options with {" "}
             <span className="fw-bold">BrokerBase demat account</span>
           </h4>
 

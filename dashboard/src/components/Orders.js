@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import api from "../api/axios";
 const Orders = () => {
@@ -8,7 +8,7 @@ const Orders = () => {
     api.get("/allOrders").then((res) => {
       setAllOrders(res.data);
     });
-  });
+  }, []);
   return (
     <>
       <h3 className="title">Orders ({allOrders.length})</h3>
@@ -34,7 +34,7 @@ const Orders = () => {
           })}
         </table>
       </div>
-      <Link to={"/"} className="btn">
+      <Link to="{/}" className="btn">
         Buy More stocks
       </Link>
     </>

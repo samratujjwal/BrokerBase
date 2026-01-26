@@ -6,7 +6,7 @@ function RightSection({ head, para, img }) {
                     <h2 className="mt-5 fs-3 mb-3">{head}</h2>
                     <p className="lh-lg">{para}</p>
                     <div className="row">
-                        <div className="col-6"><a href="" style={{ textDecoration: "none", fontWeight: "400" }}>Learn more <i class="fa-solid fa-arrow-right"></i> </a>
+                        <div className="col-6"><a href="/#" style={{ textDecoration: "none", fontWeight: "400" }}>Learn more <i class="fa-solid fa-arrow-right"></i> </a>
                         </div>
 
                     </div>

@@ -1,9 +1,6 @@
 import React from 'react';
 import "../CustomStyle.css"
 function Pricing() {
-    let stylec = {
-        padding: "0px 50px 120px 50px"
-    }
     return (
         <div className="container">
             <div className="row align-items-center">
@@ -13,7 +10,7 @@ function Pricing() {
                         We pioneered the concept of discount broking and price transparency in India.
                         Flat fees and no hidden charges.
                     </p>
-                    <a href="" style={{ textDecoration: "none" }}>
+                    <a href="/#" style={{ textDecoration: "none" }}>
                         See Pricing <i className="fa-solid fa-arrow-right fa-sm"></i>
                     </a>
                 </div>
