@@ -20,6 +20,8 @@ app.use(
       "https://69787aa8e1f8300008d68a5d--brokerbase.netlify.app",
       "https://69787e5c197b2bc56a00f7be--brokerbasedashboard.netlify.app",
       "http://localhost:3001",
+      "https://brokerbase-dehq3m8ne-samratujjwals-projects.vercel.app",
+      "https://broker-base-c4eqbfbl5-samratujjwals-projects.vercel.app",
       
     ],
     methods: ["GET", "POST", "OPTIONS"],
