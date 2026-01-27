@@ -9,7 +9,7 @@ const Hero = forwardRef((props, ref) => {
   const [activeForm, setActiveForm] = useState("signup");
   const [cookies, removeCookie] = useCookies([]);
   const [username, setUsername] = useState("");
-  const [isLoggedIn, setIsLogin] = useState(false);
+  const [isLoggedIn, setIsLogin] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
