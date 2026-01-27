@@ -99,7 +99,7 @@ const Hero = forwardRef((props, ref) => {
   ];
   const handleClick = () => {
     if (isLoggedIn) {
-      window.open("https://brokerbasedashboard.netlify.app", "_blank");
+      window.open("https://69787e5c197b2bc56a00f7be--brokerbasedashboard.netlify.app", "_blank");
     } else {
       alert("You must be logged in to access this page.");
     }
