@@ -7,15 +7,16 @@ import Login from "./Login";
 
 const Hero = forwardRef((props, ref) => {
   const [activeForm, setActiveForm] = useState("signup");
-  const [cookies, removeCookie] = useCookies([]);
+  const [cookies, removeCookie] = useCookies(["token"]);
   const [username, setUsername] = useState("");
-  const [isLoggedIn, setIsLogin] = useState(true);
+  const [isLoggedIn, setIsLogin] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const verifyCookie = async () => {
       if (!cookies.token) {
         setIsLogin(false);
+        setUsername("");
         setIsLoading(false);
         return;
       }
@@ -24,24 +25,22 @@ const Hero = forwardRef((props, ref) => {
         const { data } = await api.post(
           "/verify",
           {},
-          { withCredentials: true },
+          { withCredentials: true }
         );
-        console.log("Verify data:", data);
+
         const { status, user } = data;
-        console.log("Data:", data);
-        setIsLogin(status);
-        setUsername(user);
+
         if (status) {
-          toast(`Hello ${user} BrokerBase Welcome u`, {
-            position: "top-right",
-          });
+          setIsLogin(true);
+          setUsername(user);
         } else {
           removeCookie("token");
+          setIsLogin(false);
+          setUsername("");
         }
       } catch (err) {
-        console.error(err);
+        console.error("Verify error:", err);
         removeCookie("token");
-
         setIsLogin(false);
         setUsername("");
       } finally {
@@ -49,18 +48,16 @@ const Hero = forwardRef((props, ref) => {
       }
     };
 
-    setTimeout(async () => {
-      await verifyCookie();
-    }, 100);
-  },[cookies.token, removeCookie]);
+    verifyCookie();
+  }, [cookies.token, removeCookie]);
 
   const handleLoginSuccess = async () => {
     try {
       const { data } = await api.post("/verify", {}, { withCredentials: true });
       const { status, user } = data;
-      setIsLogin(status);
-      setUsername(user);
       if (status) {
+        setIsLogin(status);
+      setUsername(user);
         toast(`Hello ${user} BrokerBase Welcome u`, {
           position: "top-right",
         });
@@ -68,7 +65,7 @@ const Hero = forwardRef((props, ref) => {
     } catch (err) {
       console.error(err);
       setIsLogin(false);
-      removeCookie("token");
+      //removeCookie("token");
     }
   };
 
