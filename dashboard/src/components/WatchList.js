@@ -1,18 +1,15 @@
 import React, { useState, useContext, useEffect } from "react";
-import axios from "axios"
+import api from "../api/axios";
 import { Tooltip, Grow } from "@mui/material";
 import GeneralContext from "./GeneralContext";
-//import { watchlist } from "../Data/data";
 import { KeyboardArrowUp, KeyboardArrowDown, BarChartOutlined, MoreHoriz } from "@mui/icons-material";
 import DoughnutChart from "./DoughnutChar";
 const WatchList = () => {
     let [allWatchlist, setAllWatchlist] = useState([]);
 
     useEffect(() => {
-        // axios.get("https://brokerbase.onrender.com/allWatchlist").then((res) => {
-        //     setAllWatchlist(res.data);
-        // });
-        axios.get("http://localhost:3002/allWatchlist").then((res) => {
+        
+        api.get("/allWatchlist").then((res) => {
             setAllWatchlist(res.data);
         });
     }, []);
@@ -41,17 +38,7 @@ const WatchList = () => {
             }
         ]
     }
-    // const data = {
-    //     labels: ["Red", "Blue", "Yellow"],
-    //     datasets: [
-    //         {
-    //             label: "Dataset 1",
-    //             data: [300, 50, 100],
-    //             backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
-    //             hoverOffset: 4,
-    //         },
-    //     ],
-    // };
+   
     return (
         <div className="watchlist-container">
             <div className="search-container">
