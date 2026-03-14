@@ -24,6 +24,8 @@ app.use(
       "https://broker-base-c4eqbfbl5-samratujjwals-projects.vercel.app",
       "https://brokerbase-git-main-samratujjwals-projects.vercel.app",
       "https://broker-base-git-main-samratujjwals-projects.vercel.app",
+      https://brokerbase.netlify.app/,
+      https://brokerbasedashboard.netlify.app/
       
     ],
     methods: ["GET", "POST", "OPTIONS"],
