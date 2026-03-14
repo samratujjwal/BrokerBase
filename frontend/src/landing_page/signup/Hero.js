@@ -99,7 +99,8 @@ const Hero = forwardRef((props, ref) => {
   ];
   const handleClick = () => {
     if (isLoggedIn) {
-      window.open("https://broker-base-git-main-samratujjwals-projects.vercel.app", "_blank");
+      // window.open("https://broker-base-git-main-samratujjwals-projects.vercel.app", "_blank");
+      window.open("https://brokerbasedashboard.netlify.app", "_blank");
     } else {
       alert("You must be logged in to access this page.");
     }
