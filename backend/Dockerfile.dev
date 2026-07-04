@@ -1,0 +1,7 @@
+FROM node:20-alpine
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm install
+# Don't COPY . . here — we use a volume mount for hot reload
+EXPOSE 3002
+CMD ["node_modules/.bin/nodemon", "index.js"]

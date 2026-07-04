@@ -1,0 +1,87 @@
+version: '3.9'
+services:
+# Express API Backend 
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    container_name: brokerbase-api
+    ports:
+      - "3002:3002"
+    environment:
+      PORT: 3002
+      NODE_ENV: development
+      MONGO_URL: mongodb://mongo:27017/brokerbase
+      TOKEN_KEY: ${TOKEN_KEY}
+    volumes:
+  # Mount source code for hot reload
+      - ./backend:/app
+  # Prevent host node_modules from overriding container's
+      - /app/node_modules
+    depends_on:
+      - mongo
+    networks:
+      - brokerbase-net 
+    restart: unless-stopped
+
+  # React Landing Page (Frontend)
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        REACT_APP_API_BASE_URL: http://localhost:3002
+    container_name: brokerbase-frontend
+    ports:
+      - "3000:80"
+    networks:
+      - brokerbase-net
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  # REACT Trading Dashboard
+  dashboard:
+    build:
+      context: ./dashboard
+      dockerfile: Dockerfile
+      args:
+        REACT_APP_API_BASE_URL: http://localhost:3002
+    container_name: brokerbase-dashboard
+    ports:
+      - "3001:80"
+    networks:
+      - brokerbase-net
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+
+  # MongoDB Database
+
+  mongo:
+    image: mongo:7.0
+    container_name: brokerbase-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+      - ./mongo-init/seed.js:/docker-entrypoint-initdb.d/seed.js:ro
+    environment:
+      MONGO_INITDB_DATABASE: brokerbase
+    networks:
+      - brokerbase-net
+    restart: unless-stopped
+
+
+  # Named Volumes
+volumes:
+  mongo-data:
+    driver: local
+
+  # Networks
+
+networks:
+  brokerbase-net:
+    driver: bridge
